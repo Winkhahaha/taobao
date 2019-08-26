@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao-itme" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao-itme/tabao-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao-itme/taobao-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taobao_upload_service" charset="UTF-8" />
+  </component>
+</project>

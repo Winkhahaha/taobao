@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tabao-item-service" />
+        <module name="tabaoitemservice" />
+        <module name="taobao-api-gateway" />
+        <module name="taobao-common" />
+        <module name="taobao-item-interface" />
+        <module name="taobao-register" />
+        <module name="taobao_upload_service" />
+        <module name="taobaoapigateway" />
+        <module name="taobaocommon" />
+        <module name="taobaoiteminterface" />
+        <module name="taobaoregister" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
