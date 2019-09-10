@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8083
 spring:
   application:
     name: upload-service
@@ -27,7 +27,7 @@ fdfs:
     width: 60
     height: 60
   tracker-list: # tracker地址
-    - 192.168.93.88:22122
+    - 192.168.47.131:22122
 taobao:
   upload:
     base_url: http://image.taobao.com/

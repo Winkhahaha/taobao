@@ -8,7 +8,6 @@ import edu.xalead.taobao.common.exception.CommonExceptionAdvice.TaobaoItemExcept
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,24 +24,39 @@ import java.util.List;
 @EnableConfigurationProperties(UploadConfigProperties.class)
 @RequestMapping("upload")
 public class UploadController {
+    @Resource
+    private UploadConfigProperties props;
+
+    @Resource
+    private FastFileStorageClient storageClient;
+
+    @Resource
+    private ThumbImageConfig thumbImageConfig;
+
     @PostMapping("image")
-    public ResponseEntity<Void> up(MultipartFile file){
+    public ResponseEntity<String> up(MultipartFile file){
+        String path = null;
         try {
             String contentType = file.getContentType();//mime类型
-            String fileName=file.getOriginalFilename();
-            String path="D:\\学习视频\\spring淘宝后台项目\\710）\\taobao\\upload";
-            List<String> allowType=Arrays.asList("image/jpeg","image/png","image/gif");
+            String fileName = file.getOriginalFilename();
+
+            List<String> allowType = props.getAllowTypes();
             if(!allowType.contains(contentType)){
                 throw new TaobaoItemException(TaobaoItemExceptionEnum.EXCEPTION_ENUM_INVALID_IMAGE_TYPE);
             }
-            File f= new File(path,fileName);
-            file.transferTo(f);
-        } catch (IOException e) {
+//            String extension = fileName.substring(fileName.lastIndexOf('.') + 1);
+            String extension = StringUtils.substringAfterLast(fileName,".");
+            // 上传并且生成缩略图
+            StorePath storePath = this.storageClient.uploadImageAndCrtThumbImage(
+                    file.getInputStream(), file.getSize(), extension, null);
+
+            //返回路径
+            // 获取缩略图路径
+            path = props.getBase_url() + thumbImageConfig.getThumbImagePath(storePath.getFullPath());
+        } catch (Exception e) {
             e.printStackTrace();
-        } finally {
+            throw new TaobaoItemException(501,e.getMessage());
         }
-        return ResponseEntity.ok(null);
+        return ResponseEntity.ok(path);
     }
-
-
 }

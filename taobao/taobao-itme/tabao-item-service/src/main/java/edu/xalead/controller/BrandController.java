@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.websocket.server.PathParam;
 import java.util.List;
 
 @RestController
@@ -34,5 +35,10 @@ public class BrandController {
     public ResponseEntity<Void> addOrUpdateBrand(Brand brand, @RequestParam("cids") List<Long> cids){
         brandService.addOrUpdate(brand,cids);
         return ResponseEntity.ok(null);
+    }
+    @GetMapping("cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandsByCId(@PathVariable("cid") Long cid){
+
+        return ResponseEntity.ok(brandService.queryBrandsByCid(cid));
     }
 }

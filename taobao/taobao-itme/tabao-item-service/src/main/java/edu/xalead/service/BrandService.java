@@ -49,4 +49,10 @@ public class BrandService {
         }
         return count;
     }
+
+
+    public List<Brand> queryBrandsByCid(Long cid) {
+
+        return brandMapper.queryBrandsByCid(cid);
+    }
 }

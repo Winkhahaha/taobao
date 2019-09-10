@@ -26,9 +26,14 @@ public class SpecificationService {
         return sg;
     }
 
-    public List<SpecParam> querySpecParams(Long gid) {
+    public List<SpecParam> querySpecParams(Long gid,Long cid,Boolean searching) {
         SpecParam g = new SpecParam();
-        g.setGroupId(gid);
+        if(gid != null)
+            g.setGroupId(gid);
+        if(cid != null)
+            g.setCid(cid);
+        if(searching != null)
+            g.setSearching(searching);
         List<SpecParam> sg = specParamMapper.select(g);
         if(sg == null || sg.size() == 0){
             throw new TaobaoItemException(TaobaoItemExceptionEnum.EXCEPTION_ENUM_SPEC_GROUP_NOT_FONUND);

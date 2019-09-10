@@ -52,5 +52,24 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/tk.mybatis/mapper-core -->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-core</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tk.mybatis/mapper-extra -->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-extra</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tk.mybatis/mapper-base -->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-base</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
     </dependencies>
 </project>
