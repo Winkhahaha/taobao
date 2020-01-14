@@ -5,7 +5,6 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.List;
 
 @Data
 @Table(name = "tb_spu")
@@ -26,13 +25,9 @@ public class Spu {
     private Date createTime;// 创建时间
     @JsonIgnore
     private Date lastUpdateTime;// 最后修改时间
-	// 省略getter和setter
+    // 省略getter和setter
     @Transient
     private String cname;//三级类目名称拼接组合的字符串
     @Transient
     private String bname;//品牌名称
-    @Transient
-    private SpuDetail spuDetail;
-    @Transient
-    private List<Sku> skus;
 }
