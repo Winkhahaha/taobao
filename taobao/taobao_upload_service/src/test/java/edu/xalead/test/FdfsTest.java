@@ -26,7 +26,7 @@ public class FdfsTest {
 
     @Test
     public void testUpload() throws FileNotFoundException {
-        File file = new File("D:\\学习视频\\spring淘宝后台项目\\711）\\taobao\\upload\\6.jpg");
+        File file = new File("E:\\代码仓库\\taobao\\taobao\\upload\\6.jpg");
         // 上传并且生成缩略图
         StorePath storePath = this.storageClient.uploadFile(
                 new FileInputStream(file), file.length(), "jpg", null);
@@ -38,7 +38,7 @@ public class FdfsTest {
 
     @Test
     public void testUploadAndCreateThumb() throws FileNotFoundException {
-        File file = new File("D:\\学习视频\\spring淘宝后台项目\\711）\\taobao\\upload\\6.jpg");
+        File file = new File("E:\\代码仓库\\taobao\\taobao\\upload\\3.jpg");
         // 上传并且生成缩略图
         StorePath storePath = this.storageClient.uploadImageAndCrtThumbImage(
                 new FileInputStream(file), file.length(), "jpg", null);

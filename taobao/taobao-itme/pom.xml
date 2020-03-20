@@ -15,6 +15,7 @@
     <modules>
         <module>taobao-item-interface</module>
         <module>tabao-item-service</module>
+        <module>tabao-item-search</module>
     </modules>
 
 </project>

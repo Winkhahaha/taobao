@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tabao-item-search" />
         <module name="tabao-item-service" />
         <module name="tabaoitemservice" />
         <module name="taobao-api-gateway" />

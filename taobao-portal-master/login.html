@@ -109,21 +109,9 @@
         },
         methods:{
             login(){
-                taobao.http.post("/auth/accredit",taobao.stringify(this.form))
+                taobao.http.post("/user/login",taobao.stringify(this.form))
                     .then(resp => {
                         if(resp.status === 200){
-                            //1 登录成功
-                            //1.1 检查LocalStorage中是否有数据
-                            const temp = ly.store.get("carts");
-                            if (temp !== null){
-                                //1.2有数据，传到后台与redis数据库中的融合
-                                temp.forEach( s => {
-                                    taobao.http.post("/cart",{skuId:s.skuId,num:s.num}).then()
-                                });
-                                //1.3合并完毕，删除本地数据
-                                ly.store.del("carts");
-
-                            }
                             const url = taobao.getUrlParam("returnUrl");
                             window.location = url || 'http://www.taobao.com';
                         }

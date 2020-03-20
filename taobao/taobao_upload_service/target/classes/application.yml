@@ -27,7 +27,7 @@ fdfs:
     width: 60
     height: 60
   tracker-list: # tracker地址
-    - 192.168.47.131:22122
+    - 192.168.47.133:22122
 taobao:
   upload:
     base_url: http://image.taobao.com/

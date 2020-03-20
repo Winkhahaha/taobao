@@ -17,4 +17,10 @@ public class CategoryService {
         c.setParentId(pid);
         return categoryMapper.select(c);
     }
+
+    public List<Category> queryByIds(List<Long> ids) {
+        List<Category> list = categoryMapper.selectByIdList(ids);
+
+        return list;
+    }
 }
