@@ -2,159 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442062c7-7f67-48d5-ad04-cdbaf1ab8739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/TaobaoSearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/BrandClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/CategoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/GoodsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/SpecificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/test/java/edu/xalead/GoodsRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/test/java/edu/xalead/search/client/CategoryClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/tabao-item-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/StockMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/BrandApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/CategoryApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/GoodsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/SpecificationApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Sku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/upload/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/entity/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/web/SearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/material.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/material.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-getOrderInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-getOrderInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-payfail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-payfail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-paysuccess.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-paysuccess.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-seckillOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-seckillOrder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-weixinpay.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-weixinpay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/vuetify.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/vuetify.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-moon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-pc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-pc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-tb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-tb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-touch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-touch.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/getOrderInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-evaluate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-receive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-send.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-send.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-orderDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-orderDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-person-collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-person-collect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-person-footmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-person-footmark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address-complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address-complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address-phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address-phone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-safe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/interest01.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/interest01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/4/5/145.html" beforeDir="false" afterPath="$PROJECT_DIR$/items/4/5/145.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/8/1/81.html" beforeDir="false" afterPath="$PROJECT_DIR$/items/8/1/81.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/czFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/czFunction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/model/cartModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model/cartModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/addressList.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/addressList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/city-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/city-picker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/getOrderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/getOrderInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/jquery.slideunlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/login-manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/login-manage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/person-collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/person-collect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/person-footmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/person-footmark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/seckill-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/seckill-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/shoplogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shoplogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/shortcut.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shortcut.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/birthday/birthday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/birthday/birthday.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery-placeholder/jquery.placeholder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery/jquery.cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/qs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/upload/uploadPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/upload/uploadPreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue/vue.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue/vue.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue/vuetify.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue/vuetify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/cartPanelView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/cartPanelView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/nav-portal-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/nav-portal-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/payfail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/paysuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/cssgrids/cssgrids-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery-placeholder/jquery.placeholder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery.easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery.jqzoom/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/normalize/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/normalize/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sui/sui-append.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sui/sui-append.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sui/sui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sui/sui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sui/sui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortcut.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortcut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/side.html" beforeDir="false" afterPath="$PROJECT_DIR$/side.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/success-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/TaobaoItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/TaobaoItemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/CategroyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/CategroyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/controller/SpecificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpecGroupMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpecGroupMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpecParamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpecParamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpuDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpuDetailMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/dao/SpuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/src/main/java/edu/xalead/service/SpecificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/controller/CategroyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/controller/CategroyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-service/target/classes/edu/xalead/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/SpecGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/SpecGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/SpecParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/SpecParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Spu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/Spu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/SpuDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/entity/SpuDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/vo/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/vo/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao_upload_service/src/test/java/edu/xalead/test/FdfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao_upload_service/src/test/java/edu/xalead/test/FdfsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao_upload_service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao_upload_service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao_upload_service/target/test-classes/edu/xalead/test/FdfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao_upload_service/target/test-classes/edu/xalead/test/FdfsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-api-gateway/src/main/java/edu/xalead/filter/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-api-gateway/src/main/java/edu/xalead/filter/GlobalCorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/BrandClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/BrandClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/CategoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/CategoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/SpecificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/SpecificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/BrandApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/BrandApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -260,6 +119,28 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bak" value="1" />
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -268,7 +149,16 @@
         <entry file="file://$PROJECT_DIR$/s.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.html.bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -276,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="395" column="43" selection-start-line="395" selection-start-column="43" selection-end-line="395" selection-end-column="43" />
+            <state relative-caret-position="315">
+              <caret line="476" column="16" selection-start-line="476" selection-start-column="16" selection-end-line="476" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -328,7 +218,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="315" />
     <option name="y" value="125" />
     <option name="width" value="1800" />
@@ -424,17 +319,26 @@
       <workItem from="1563291996213" duration="437000" />
       <workItem from="1563302692992" duration="184000" />
       <workItem from="1563302896035" duration="2075000" />
-      <workItem from="1584684986070" duration="17000" />
+      <workItem from="1584684986070" duration="1621000" />
     </task>
+    <task id="LOCAL-00001" summary="前端检索数据">
+      <created>1584685128781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584685128781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37214000" />
+    <option name="totallyTimeSpent" value="38818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28820375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28820375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,7 +353,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2070922" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29219857" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="PlantUML" />
@@ -496,8 +400,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="前端检索数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端检索数据" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -541,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13878">
-          <caret line="514" column="26" selection-start-line="514" selection-start-column="26" selection-end-line="514" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/v-select.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -555,29 +459,42 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/axios.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/qrcode.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/s.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/search.html.bak">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6971">
+        <state relative-caret-position="24">
           <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s.bat">
+    <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="-151">
+          <caret line="536" column="4" selection-start-line="536" selection-start-column="4" selection-end-line="536" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="395" column="43" selection-start-line="395" selection-start-column="43" selection-end-line="395" selection-end-column="43" />
+        <state relative-caret-position="315">
+          <caret line="476" column="16" selection-start-line="476" selection-start-column="16" selection-end-line="476" selection-end-column="16" />
         </state>
       </provider>
     </entry>
