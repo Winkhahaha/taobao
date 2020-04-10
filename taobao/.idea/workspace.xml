@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="018714db-f4b8-463d-87a7-a74640d16630" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../taobao-manage-web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao-manage-web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao-manage-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao-manage-web/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../taobao-portal-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao-portal-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -142,7 +139,7 @@
           <entry key="java" value="115" />
           <entry key="png" value="1" />
           <entry key="xml" value="10" />
-          <entry key="yml" value="15" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -152,7 +149,7 @@
           <entry key="Image" value="1" />
           <entry key="JAVA" value="115" />
           <entry key="XML" value="10" />
-          <entry key="YAML" value="15" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -175,15 +172,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taobao-itme/tabao-item-search/src/main/java/edu/xalead/entity/SearchRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/service/SearchService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -208,8 +196,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taobao-api-gateway/src/main/java/edu/xalead/TaobaoGateWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="192">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -365,11 +353,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="445" />
-    <option name="y" value="10" />
-    <option name="width" value="1155" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="315" />
+    <option name="y" value="125" />
+    <option name="width" value="1800" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -413,6 +401,41 @@
               <item name="taobao" type="b2602c69:ProjectViewProjectNode" />
               <item name="taobao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="taobao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-itme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-itme" type="462c0819:PsiDirectoryNode" />
+              <item name="tabao-item-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-itme" type="462c0819:PsiDirectoryNode" />
+              <item name="tabao-item-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-itme" type="462c0819:PsiDirectoryNode" />
+              <item name="tabao-item-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taobao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taobao" type="462c0819:PsiDirectoryNode" />
+              <item name="taobao-itme" type="462c0819:PsiDirectoryNode" />
+              <item name="tabao-item-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -426,7 +449,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586509397525" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586510037401" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/taobao_upload_service/src/test/java" />
@@ -626,7 +649,7 @@
       <workItem from="1584716420030" duration="116000" />
       <workItem from="1584873559396" duration="615000" />
       <workItem from="1586333948347" duration="282000" />
-      <workItem from="1586506705394" duration="1143000" />
+      <workItem from="1586506705394" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="0710">
       <created>1579007870237</created>
@@ -685,13 +708,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128820000" />
+    <option name="totallyTimeSpent" value="129386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21715818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21715818" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25113463" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -713,7 +736,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.34468085" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.4992908" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.4992908" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -986,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taobao-itme/tabao-item-search/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/BrandApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1073,10 +1089,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/taobao-itme/tabao-item-search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/taobao-api-gateway/src/main/java/edu/xalead/TaobaoGateWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="192">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
