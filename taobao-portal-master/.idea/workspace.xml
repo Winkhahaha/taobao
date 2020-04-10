@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442062c7-7f67-48d5-ad04-cdbaf1ab8739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/entity/SearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/service/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/web/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-api-gateway/src/main/java/edu/xalead/filter/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-api-gateway/src/main/java/edu/xalead/filter/GlobalCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/BrandClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/BrandClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/CategoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/CategoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/SpecificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/java/edu/xalead/search/client/SpecificationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/tabao-item-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/BrandApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taobao/taobao-itme/taobao-item-interface/src/main/java/edu/xalead/api/BrandApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,6 +104,7 @@
     <session id="-94722278">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -223,7 +213,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="315" />
     <option name="y" value="125" />
     <option name="width" value="1800" />
@@ -335,7 +325,7 @@
     <option name="totallyTimeSpent" value="38818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28820375" />
